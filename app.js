@@ -302,12 +302,13 @@
       '<article class="capitulo">' +
         // Cabeçalho no formato de "corrida em andamento"
         '<header class="capitulo-cabecalho viagem" id="viagem">' +
+          '<nav class="viagem-nav" aria-label="Navegação do capítulo">' +
+            '<a class="viagem-voltar" href="#capitulos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Capítulos</a>' +
+            (prox ? '<a class="viagem-proximo" href="#capitulo-' + prox.numero + '" aria-label="Próximo capítulo: ' + escapar(prox.titulo) + '">Próximo<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>'
+                  : '<span class="viagem-proximo desativado" aria-disabled="true">Último</span>') +
+          '</nav>' +
           '<div class="viagem-topo">' +
             '<span class="viagem-status"><span class="viagem-ponto" aria-hidden="true"></span>Em viagem · Capítulo ' + c.numero + ' de ' + capitulos.length + '</span>' +
-            '<div class="ajuste-fonte" role="group" aria-label="Tamanho da letra">' +
-              '<button type="button" id="fonte-menos" aria-label="Diminuir letra">A−</button>' +
-              '<button type="button" id="fonte-mais" aria-label="Aumentar letra">A+</button>' +
-            '</div>' +
           '</div>' +
           '<h1 class="capitulo-titulo">' + escapar(nomeDestino) + '</h1>' +
           '<p class="viagem-eta"><strong id="viagem-restante">Chega em ' + c.minutos + ' min</strong> <span id="viagem-hora"></span></p>' +
@@ -327,6 +328,14 @@
             '<span class="viagem-placa">' + placa + '</span>' +
           '</div>' +
         '</header>' +
+        // Tamanho da letra: logo abaixo do cartão, no canto direito
+        '<div class="capitulo-ferramentas">' +
+          '<div class="ajuste-fonte" role="group" aria-label="Tamanho da letra">' +
+            '<span class="ajuste-fonte-rotulo" aria-hidden="true">Tamanho da letra</span>' +
+            '<button type="button" id="fonte-menos" aria-label="Diminuir letra">A−</button>' +
+            '<button type="button" id="fonte-mais" aria-label="Aumentar letra">A+</button>' +
+          '</div>' +
+        '</div>' +
         '<div class="texto">' + corpoHTML + '</div>' +
         '<p class="capitulo-fim" aria-hidden="true">❦</p>' +
         '<nav class="capitulo-nav" aria-label="Navegação entre capítulos">' +

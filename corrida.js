@@ -32,7 +32,7 @@ var TEMPOS = { etapa1: 9000, pausa: 3000, etapa2: 13000 };
   // Caminho pelas ruas do desenho (ruas a cada 100 unidades)
   var CAMINHOS = [
     [[200, 700], [200, 600], [400, 600]],                         // casa → prédio
-    [[400, 600], [400, 400], [700, 400], [700, 200], [900, 200]]  // prédio → faculdade
+    [[400, 600], [400, 200], [900, 200]]                          // prédio → faculdade
   ];
   var PONTOS = { casaEduarda: [200, 700], predioLorena: [400, 600], faculdade: [900, 200], delegacia: [560, 600] };
 
@@ -159,7 +159,8 @@ var TEMPOS = { etapa1: 9000, pausa: 3000, etapa2: 13000 };
     rotulos.delegacia = rotulo(d, TRAJETO.delegacia.nome, 'claro');
 
     capivaraEl = el('g', { 'class': 'm-capivara' }, camada);
-    var corpo = el('g', { transform: 'translate(-32 -30)' }, capivaraEl);
+    // rodinhas apoiadas no ponto/linha, corpo acima: não cobre as etiquetas de baixo
+    var corpo = el('g', { transform: 'translate(-34 -41)' }, capivaraEl);
     corpo.innerHTML = CAPIVARA;
   }
 
@@ -250,8 +251,8 @@ var TEMPOS = { etapa1: 9000, pausa: 3000, etapa2: 13000 };
 
   function reiniciarLinhas() {
     etapas.forEach(function (e, i) { linhas[i].resta.setAttribute('points', lista(e.pts)); });
-    angulo = null;
-    moverCapivara(etapas[0].pts[0], etapas[0].pts[1], true);
+    angulo = 0; // parada, virada para a direita
+    moverCapivara(etapas[0].pts[0], null, true);
     LUGARES.forEach(function (k) { trocarTexto(rotulos[k], TRAJETO[k].nome); });
   }
 

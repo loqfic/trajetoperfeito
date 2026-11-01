@@ -137,7 +137,7 @@ body[data-pagina="leitura"] .progresso-leitura { opacity: 1; }
 [data-tema="escuro"] .icone-sol { display: block; }
 [data-tema="escuro"] .icone-lua { display: none; }
 
-.hamburguer { display: none; flex-direction: column; gap: 5px; }
+.hamburguer { display: none; flex-direction: column; align-items: center; justify-content: center; gap: 5px; }
 .hamburguer span {
   display: block; width: 20px; height: 2px; border-radius: 2px; background: currentColor;
   transition: transform .25s, opacity .2s;
@@ -240,13 +240,20 @@ main { flex: 1; outline: none; }
 .arte-rotulo rect { fill: var(--botao); }
 .arte-rotulo text { fill: var(--botao-texto); font: 600 13px var(--sem-serifa); }
 .arte-rotulo-suave { fill: var(--verde); font: 600 13px var(--sem-serifa); opacity: .9; }
-/* Celular: encolhe o trajeto para caber inteiro e esconde as etiquetas */
+/* Celular: o desenho mantém a mesma proporção do computador (nada é cortado) */
 @media (max-width: 639px) {
-  .inicio-arte { height: 210px; }
-  .pagina-inicio .inicio { padding-top: 178px; }
-  .arte-historia { transform-box: view-box; transform-origin: 600px 250px; transform: scale(.74); }
-  .arte-rotulo, .arte-rotulo-suave { display: none; }
-  .arte-rota { stroke-width: 9; } .arte-rota-borda { stroke-width: 17; }
+  .inicio-arte { height: 35vw; -webkit-mask-image: linear-gradient(to bottom, #000 82%, transparent 100%); mask-image: linear-gradient(to bottom, #000 82%, transparent 100%); }
+  .pagina-inicio .inicio { padding-top: calc(35vw + 6px); }
+  .arte-rota { stroke-width: 13; } .arte-rota-borda { stroke-width: 24; }
+  .arte-ruas path { stroke-width: 7; }
+  .arte-pino, .arte-coracao, .arte-rotulo, .arte-rotulo-suave { transform-box: fill-box; transform-origin: center; }
+  .arte-pino { transform: scale(1.8); }
+  .arte-coracao { transform: scale(1.6); }
+  .arte-rotulo { transform: scale(1.9); }
+  .arte-rotulo-casa { transform: translateY(10px) scale(1.9); }
+  .arte-rotulo-predio { transform: translate(70px, 4px) scale(1.9); }
+  .arte-rotulo-suave { transform: scale(1.8); }
+  .arte-capivara-corpo { transform: translate(-41px, -37px) scale(1.15); }
 }
 @media (prefers-reduced-motion: reduce) {
   .arte-chuva path, .arte-pulso { animation: none; }
@@ -360,7 +367,7 @@ main { flex: 1; outline: none; }
 
 .capitulo {
   font-size: var(--fonte-leitura);
-  padding: 32px 22px 56px;
+  padding: 28px 22px 56px;
   padding-left: max(22px, env(safe-area-inset-left));
   padding-right: max(22px, env(safe-area-inset-right));
 }
@@ -396,11 +403,32 @@ main { flex: 1; outline: none; }
 
 .capitulo-cabecalho.viagem {
   font-size: 16px; /* não acompanha o A−/A+ da leitura */
-  padding: 18px 18px 16px; margin-top: 4px; margin-bottom: 2.2em;
+  padding: 18px 18px 16px; margin-top: 0; margin-bottom: 10px;
   border: 0; border-radius: 18px; background: var(--cartao);
   box-shadow: 0 1px 0 var(--linha), var(--sombra);
 }
 [data-tema="escuro"] .capitulo-cabecalho.viagem { border: 1px solid var(--linha); }
+.viagem-nav { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin: -6px -6px 12px; }
+.viagem-voltar {
+  display: inline-flex; align-items: center; gap: 4px; height: 36px; padding: 0 12px 0 8px; border-radius: 999px;
+  color: var(--texto); text-decoration: none; font-size: 14px; font-weight: 600; margin-right: auto;
+  transition: background-color .2s;
+}
+.viagem-voltar:hover { background: var(--cinza); }
+.viagem-voltar svg, .viagem-proximo svg { width: 18px; height: 18px; flex: none; }
+.viagem-proximo {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px; height: 36px; padding: 0 10px 0 14px;
+  border-radius: 999px; background: var(--botao); color: var(--botao-texto);
+  text-decoration: none; font-size: 13px; font-weight: 600; white-space: nowrap; transition: background-color .2s;
+}
+.viagem-proximo:hover { background: var(--botao-hover); }
+.viagem-proximo.desativado { background: var(--cinza); color: var(--suave); pointer-events: none; }
+/* Barra do tamanho da letra, abaixo do cartão, no canto direito */
+.capitulo-ferramentas { max-width: 65ch; margin: 0 auto 36px; display: flex; justify-content: flex-end; }
+.capitulo-ferramentas .ajuste-fonte { position: static; align-items: center; gap: 2px; opacity: .6; }
+.capitulo-ferramentas .ajuste-fonte:hover, .capitulo-ferramentas .ajuste-fonte:focus-within { opacity: 1; }
+.ajuste-fonte-rotulo { font: 500 12px var(--sem-serifa); color: var(--suave); margin-right: 4px; }
+@media (max-width: 380px) { .ajuste-fonte-rotulo { display: none; } }
 .viagem-topo { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
 .viagem .ajuste-fonte { position: static; margin-right: -6px; }
 .viagem-status { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--suave); }
@@ -437,16 +465,20 @@ main { flex: 1; outline: none; }
 /* Barrinha fixa que aparece quando o cabeçalho sai da tela */
 .viagem-mini {
   position: fixed; z-index: 900; left: 50%; top: calc(var(--topo) + var(--seg-topo) + 10px);
-  display: flex; align-items: center; gap: 10px; padding: 8px 14px; border-radius: 999px;
-  background: var(--botao); color: var(--botao-texto); font: 500 13px var(--sem-serifa);
-  box-shadow: var(--sombra); pointer-events: none;
+  display: flex; align-items: center; gap: 10px; padding: 7px 14px; border-radius: 999px;
+  width: max-content; max-width: calc(100vw - 32px); white-space: nowrap;
+  background: color-mix(in srgb, var(--fundo) 88%, transparent); color: var(--suave);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  border: 1px solid var(--linha); font: 500 12.5px var(--sem-serifa);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .06); pointer-events: none;
   opacity: 0; transform: translate(-50%, -8px); transition: opacity .2s, transform .2s;
 }
+.viagem-mini-texto { white-space: nowrap; }
 body[data-pagina="leitura"] .viagem-mini.visivel { opacity: 1; transform: translate(-50%, 0); }
 .viagem-mini .viagem-ponto { animation: none; }
-.viagem-mini strong { font-weight: 700; }
-.viagem-mini-barra { width: 56px; height: 3px; border-radius: 3px; background: rgba(127, 127, 127, .45); overflow: hidden; }
-.viagem-mini-barra span { display: block; height: 100%; background: currentColor; transform: scaleX(0); transform-origin: 0 50%; }
+.viagem-mini strong { font-weight: 600; color: var(--texto); }
+.viagem-mini-barra { flex: none; width: 48px; height: 3px; border-radius: 3px; background: var(--cinza-forte); overflow: hidden; }
+.viagem-mini-barra span { display: block; height: 100%; background: var(--suave); transform: scaleX(0); transform-origin: 0 50%; }
 @media (prefers-reduced-motion: reduce) { .viagem-ponto { animation: none; } }
 @media (max-width: 380px) { .viagem-dados strong { font-size: 15px; } .viagem-dados li { padding: 9px 10px; } }
 
@@ -525,6 +557,11 @@ body[data-pagina="leitura"] .viagem-mini.visivel { opacity: 1; transform: transl
   border-radius: 16px;
 }
 .cartao-giro.virado { transform: rotateY(180deg); }
+/* Alguns celulares (iPhone) mostram o lado de trás mesmo virado: esconde a face que não está à mostra */
+.cartao-frente, .cartao-verso { transition: opacity 0s .18s, visibility 0s .18s; }
+.cartao-giro .cartao-verso { opacity: 0; visibility: hidden; }
+.cartao-giro.virado .cartao-verso { opacity: 1; visibility: visible; }
+.cartao-giro.virado .cartao-frente { opacity: 0; visibility: hidden; }
 .cartao-face {
   position: absolute; inset: 0; border-radius: 16px; overflow: hidden;
   -webkit-backface-visibility: hidden; backface-visibility: hidden;
