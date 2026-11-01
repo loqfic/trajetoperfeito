@@ -18,8 +18,8 @@ Original no AO3: https://archiveofourown.org/works/88140211
 | --- | --- |
 | Capítulos | `capitulos.js` (instruções no topo do arquivo) |
 | Personagens | `personagens.js` |
-| Fotos | pasta `img/` com o mesmo nome do campo `foto` (ex.: `img/lorena.jpg`) |
-| Trajeto do mapa | objeto `TRAJETO` no topo de `js/corrida.js` — preencha `endereco` (ex.: `'Rua Augusta, 1500, São Paulo'`) ou `coord`; vazio = ponto sorteado |
+| Fotos | arquivo solto (sem pasta) com o mesmo nome do campo `foto` (ex.: `lorena.jpg`) |
+| Trajeto do mapa | objeto `TRAJETO` no topo de `corrida.js` — preencha `endereco` (ex.: `'Rua Augusta, 1500, São Paulo'`) ou `coord`; vazio = ponto sorteado |
 | Sinopse | seção "INÍCIO" em `index.html` |
 
 Sem foto, a personagem aparece com um círculo com a inicial do nome.

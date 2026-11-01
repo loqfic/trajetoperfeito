@@ -561,14 +561,14 @@ body[data-pagina="leitura"] .viagem-mini.visivel { opacity: 1; transform: transl
 }
 .cartao-verso .cartao-papel { font-size: .8rem; color: var(--suave); line-height: 1.3; }
 .cartao-curta {
-  flex: 1; margin: 10px 0 12px; font-size: .92rem; line-height: 1.55;
-  overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 7;
+  flex: 1; margin: 10px 0 4px; font-size: .95rem; line-height: 1.55; text-wrap: pretty;
 }
+.cartao-verso { overflow-y: auto; }
 .cartao-verso .botao { align-self: stretch; }
 @media (max-width: 420px) {
   .cartao-legenda { padding: 10px; }
   .cartao-verso { padding: 14px 12px 12px; }
-  .cartao-curta { font-size: .86rem; -webkit-line-clamp: 5; }
+  .cartao-curta { margin-top: 6px; font-size: .8rem; line-height: 1.42; }
 }
 
 /* ---------- Modal (sobe de baixo, como no app) ---------- */

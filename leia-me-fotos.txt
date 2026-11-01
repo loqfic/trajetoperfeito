@@ -1,0 +1,10 @@
+FOTOS DAS PERSONAGENS
+
+Envie as fotos para o GitHub soltas, junto com os outros arquivos (sem pasta),
+com estes nomes exatos (tudo minúsculo, terminando em .jpg):
+
+  lorena.jpg     eduarda.jpg    maggye.jpg     paulinho.jpg
+  gerluce.jpg    zenilda.jpg    daphne.jpg     doutora.jpg
+
+Se uma foto não existir, o site mostra um círculo com a inicial do nome.
+Para usar outro formato (.png, .webp), mude o nome em personagens.js.

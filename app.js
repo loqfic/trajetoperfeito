@@ -457,7 +457,7 @@
         '<strong class="cartao-nome">' + escapar(p.nome || '') + '</strong>' +
         '<span class="cartao-papel">' + escapar(p.papel || '') + '</span>' +
         '<p class="cartao-curta">' + formatarLinha(p.descricaoCurta || '') + '</p>' +
-        '<button type="button" class="botao botao-primario botao-pequeno">Ver mais</button>';
+        (p.descricaoLonga ? '<button type="button" class="botao botao-primario botao-pequeno">Ver mais</button>' : '');
 
       giro.appendChild(frente);
       giro.appendChild(verso);
@@ -472,11 +472,14 @@
       giro.addEventListener('keydown', function (e) {
         if (e.target === giro && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); virar(); }
       });
-      $('button', verso).addEventListener('click', function (e) {
-        e.stopPropagation();
-        abrirModal(p, giro);
-      });
-      $('button', verso).addEventListener('keydown', function (e) { e.stopPropagation(); });
+      var verMais = $('button', verso);
+      if (verMais) {
+        verMais.addEventListener('click', function (e) {
+          e.stopPropagation();
+          abrirModal(p, giro);
+        });
+        verMais.addEventListener('keydown', function (e) { e.stopPropagation(); });
+      }
     });
   }
 
