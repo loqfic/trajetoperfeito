@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Trajeto Perfeito</title>
+  <meta name="description" content="Leia Trajeto Perfeito, fanfic de medvedovskyg (Três Graças): Lorena e Eduarda, ex-colegas de escola, se reencontram na universidade e passam a dividir a carona todos os dias.">
+  <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23000'/%3E%3Cpath d='M8 23 C12 12 20 20 24 9' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='8' cy='23' r='3' fill='%23fff'/%3E%3Ccircle cx='24' cy='9' r='3' fill='%23fff'/%3E%3C/svg%3E">
+
+  <!-- Tema salvo aplicado antes de desenhar a página (evita "piscar") -->
+  <script>
+    (function () {
+      try {
+        var t = JSON.parse(localStorage.getItem('tp-tema'));
+        if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'escuro' : 'claro';
+        document.documentElement.setAttribute('data-tema', t);
+        var f = JSON.parse(localStorage.getItem('tp-fonte'));
+        if (f) document.documentElement.style.setProperty('--fonte-leitura', f + 'px');
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" onerror="this.onerror=null;this.href='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css'">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="progresso-leitura" id="progresso-leitura" aria-hidden="true"><span></span></div>
+
+  <header class="topo">
+    <div class="topo-interno">
+      <a class="marca" href="#inicio" aria-label="Trajeto Perfeito — início">
+        <svg class="marca-icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 24 C11 12 21 20 25 8" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="0.1 5.2"/><circle cx="7" cy="24" r="3.2" fill="currentColor"/><circle cx="25" cy="8" r="3.2" fill="currentColor"/></svg>
+        <span>Trajeto Perfeito</span>
+      </a>
+
+      <nav class="menu" id="menu" aria-label="Principal">
+        <a href="#inicio" data-rota="inicio">Início</a>
+        <a href="#capitulos" data-rota="capitulos">Capítulos</a>
+        <a href="#personagens" data-rota="personagens">Personagens</a>
+        <a href="#corrida" data-rota="corrida">Corrida</a>
+      </nav>
+
+      <div class="topo-acoes">
+        <button class="botao-icone" id="botao-tema" type="button" aria-label="Alternar modo escuro">
+          <svg class="icone-lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z" fill="currentColor"/></svg>
+          <svg class="icone-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></svg>
+        </button>
+        <button class="botao-icone hamburguer" id="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+
+    <!-- INÍCIO -->
+    <section class="pagina pagina-inicio" data-pagina="inicio">
+      <!-- Grafismo do topo: o trajeto da carona (casa da Eduarda → prédio da Lorena → faculdade) -->
+      <div class="inicio-arte" aria-hidden="true">
+        <svg id="arte-svg" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <!-- ruas -->
+          <g class="arte-ruas">
+            <path d="M0 120 H1200 M0 330 H1200 M0 30 H1200 M0 390 H1200 M80 0 V420 M400 0 V420 M700 0 V420 M1120 0 V420 M480 0 L330 420 M780 0 L960 420"/>
+          </g>
+          <g class="arte-avenidas">
+            <path d="M0 200 H560 L620 260 H1200 M300 0 V420 M900 0 L840 420"/>
+          </g>
+          <!-- quarteirões / prédios -->
+          <g class="arte-quadras">
+            <rect x="96" y="140" width="90" height="44" rx="6"/><rect x="320" y="136" width="64" height="50" rx="6"/>
+            <rect x="96" y="214" width="90" height="70" rx="6"/><rect x="416" y="214" width="120" height="96" rx="6"/>
+            <rect x="96" y="344" width="180" height="30" rx="6"/><rect x="560" y="280" width="120" height="40" rx="6"/>
+            <rect x="716" y="140" width="110" height="100" rx="6"/><rect x="716" y="280" width="104" height="90" rx="6"/>
+            <rect x="416" y="136" width="54" height="50" rx="6"/><rect x="1136" y="140" width="64" height="170" rx="6"/>
+          </g>
+          <g class="arte-historia">
+          <!-- campus: lago da Doutora e prédios de vidro -->
+          <path class="arte-lago" d="M960 96c40-26 110-22 140 6 26 24 12 58-28 66-44 9-88 12-118-6-28-16-24-48 6-66z"/>
+          <g class="arte-vidro">
+            <rect x="930" y="240" width="56" height="70" rx="5"/><rect x="1000" y="250" width="44" height="60" rx="5"/><rect x="1056" y="236" width="50" height="74" rx="5"/>
+          </g>
+          <text class="arte-rotulo-suave" x="1030" y="138" text-anchor="middle">lago da Doutora</text>
+          <!-- chuva do capítulo 1 -->
+          <g class="arte-nuvem">
+            <path d="M120 96c-18 0-30-12-30-26s12-26 28-26c6-16 22-26 40-26 22 0 40 14 44 34 16 2 28 14 28 28 0 16-14 28-32 28z"/>
+          </g>
+          <g class="arte-chuva">
+            <path d="M110 112 l-8 18 M140 116 l-8 18 M170 112 l-8 18 M200 116 l-8 18 M125 140 l-8 18 M155 144 l-8 18 M185 140 l-8 18"/>
+          </g>
+          <!-- rota -->
+          <path class="arte-rota-borda" d="M150 300 H210 V250 H300 V200 H560 L620 260 H840 L900 210 H1000"/>
+          <path class="arte-rota" id="arte-rota" d="M150 300 H210 V250 H300 V200 H560 L620 260 H840 L900 210 H1000"/>
+          <!-- delegacia (perto das duas) -->
+          <g class="arte-ref" transform="translate(255 282)"><circle r="11"/><text y="4" text-anchor="middle">★</text></g>
+          <!-- pinos -->
+          <circle class="arte-pino" cx="150" cy="300" r="10"/>
+          <circle class="arte-pino arte-pino-parada" cx="300" cy="250" r="9"/>
+          <path class="arte-coracao" d="M318 222c-3-5-11-4-11 2 0 5 11 11 11 11s11-6 11-11c0-6-8-7-11-2z"/>
+          <rect class="arte-pino" x="990" y="200" width="20" height="20" rx="4"/>
+          <circle class="arte-pulso" cx="1000" cy="210" r="12"/>
+          <!-- rótulos -->
+          <g class="arte-rotulo"><rect x="88" y="318" width="124" height="28" rx="7"/><text x="150" y="337" text-anchor="middle">Casa da Eduarda</text></g>
+          <g class="arte-rotulo"><rect x="236" y="264" width="128" height="28" rx="7"/><text x="300" y="283" text-anchor="middle">Prédio da Lorena</text></g>
+          <g class="arte-rotulo"><rect x="955" y="160" width="90" height="28" rx="7"/><text x="1000" y="179" text-anchor="middle">Faculdade</text></g>
+          <!-- carro-capivara -->
+          <g class="arte-capivara">
+            <animateMotion dur="16s" repeatCount="indefinite" rotate="auto" calcMode="linear"
+              keyPoints="0;0.2014;0.2014;1;1" keyTimes="0;0.18;0.3;0.92;1" path="M150 300 H210 V250 H300 V200 H560 L620 260 H840 L900 210 H1000"/>
+            <g class="arte-capivara-corpo" transform="translate(-30 -27) scale(.84)">
+                <ellipse cx="36" cy="45" rx="27" ry="2.6" fill="rgba(0,0,0,.18)"/>
+                <path d="M8 28C8 15 20 10 34 10c9 0 15 2 19 5v19c0 3-2 4-5 4H14c-4 0-6-4-6-10z" fill="#9A6634"/>
+                <path d="M14 21c4-4 9-6 14-6M18 27c3-2 7-3 11-3" stroke="#B5814D" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M43 15c2-7 8-9 14-8 6 1 9 5 10 9v10c0 4-3 6-7 6h-9c-5 0-8-4-8-8z" fill="#8A5A2E"/>
+                <path d="M57 13c6-1 11 2 11 7v6c0 4-3 6-7 6h-4z" fill="#6E4522"/>
+                <ellipse cx="49.5" cy="7.8" rx="3.2" ry="2.6" fill="#6E4522"/>
+                <circle cx="55.5" cy="14.5" r="2" fill="#1a1a1a"/><circle cx="56.2" cy="13.8" r=".7" fill="#fff"/>
+                <ellipse cx="55.5" cy="22" rx="3.2" ry="1.9" fill="#E8998D" opacity=".65"/>
+                <circle cx="21" cy="38" r="6.2" fill="#161616"/><circle cx="21" cy="38" r="2.3" fill="#c9c9c9"/>
+                <circle cx="45" cy="38" r="6.2" fill="#161616"/><circle cx="45" cy="38" r="2.3" fill="#c9c9c9"/>
+              </g>
+          </g>
+          </g>
+        </svg>
+      </div>
+      <div class="inicio">
+        <p class="sobretitulo">Uma fanfic de <em>Três Graças</em></p>
+        <h1 class="inicio-titulo">Trajeto Perfeito</h1>
+        <p class="inicio-autora">por <a href="https://archiveofourown.org/works/88140211" target="_blank" rel="noopener">medvedovskyg</a></p>
+
+        <a class="busca" id="botao-comecar" href="#capitulo-1">
+          <svg class="busca-icone" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          <span class="busca-texto">Para onde? <span>Começar a ler</span></span>
+          <span class="busca-pilula">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5.5h7.5a4.5 4.5 0 0 1 0 9H8.5a3 3 0 0 0 0 6H18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            Cap. 1
+          </span>
+        </a>
+
+        <button class="linha-recente" id="botao-continuar" type="button" disabled>
+          <span class="linha-icone" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <span class="linha-corpo">
+            <span>Continuar de onde parei</span>
+            <small id="continuar-detalhe">Nenhuma leitura salva ainda</small>
+          </span>
+          <span class="linha-seta" aria-hidden="true">›</span>
+        </button>
+
+        <h2 class="inicio-secao">Destinos salvos</h2>
+        <ul class="destinos" id="destinos"></ul>
+
+        <h2 class="inicio-secao">Sugestões</h2>
+        <nav class="atalhos" aria-label="Atalhos">
+          <a class="atalho" href="#capitulos">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 11c5-2 10-2 16 2v25c-6-4-11-4-16-2z" fill="currentColor" opacity=".25"/><path d="M40 11c-5-2-10-2-16 2v25c6-4 11-4 16-2z" fill="currentColor"/></svg>
+            <span>Capítulos</span>
+          </a>
+          <a class="atalho" href="#personagens">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="18" cy="17" r="6.5" fill="currentColor"/><path d="M6 38c1-8 6-12 12-12s11 4 12 12z" fill="currentColor"/><circle cx="32" cy="15" r="5.5" fill="currentColor" opacity=".3"/><path d="M28 24c7 0 13 4 14 12h-9c-1-5-3-9-5-12z" fill="currentColor" opacity=".3"/></svg>
+            <span>Personagens</span>
+          </a>
+          <a class="atalho" href="#corrida">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 30l3.5-9.5A4 4 0 0 1 17.3 18h13.4a4 4 0 0 1 3.8 2.5L38 30v7a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-1H16v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z" fill="currentColor"/><path d="M14.5 28l2.3-6h14.4l2.3 6z" class="recorte"/><circle class="recorte" cx="15.5" cy="32" r="2"/><circle class="recorte" cx="32.5" cy="32" r="2"/></svg>
+            <span>Corrida</span>
+          </a>
+        </nav>
+
+        <h2 class="inicio-secao">Sobre a história</h2>
+        <div class="inicio-cartao">
+          <p class="inicio-sinopse">
+            Lorena Ferette e Eduarda Fragoso estudaram na mesma sala no terceiro ano do ensino médio, mas nunca
+            passaram de colegas. Anos depois, elas se reencontram na mesma universidade, com Lorena cursando
+            Psicologia e Eduarda cursando Nutrição, e, após um imprevisto, Eduarda passa a oferecer carona para
+            Lorena todos os dias.
+          </p>
+          <p class="inicio-sinopse">
+            O que começa como um simples gesto de gentileza logo se transforma na parte favorita da rotina das
+            duas, aproximando-as de um jeito que nunca aconteceu no passado. Mas, quando finalmente encontram
+            a felicidade uma na outra, um acontecimento inesperado muda tudo e promete transformar suas vidas
+            para sempre.
+          </p>
+          <p class="inicio-numeros" id="inicio-numeros"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÍNDICE -->
+    <section class="pagina pagina-indice" data-pagina="capitulos">
+      <div class="largura">
+        <header class="cabecalho-pagina">
+          <p class="sobretitulo">Índice</p>
+          <h1>Capítulos</h1>
+          <p class="cabecalho-resumo" id="indice-resumo"></p>
+        </header>
+        <ol class="lista-capitulos" id="lista-capitulos"></ol>
+      </div>
+    </section>
+
+    <!-- LEITURA -->
+    <section class="pagina pagina-leitura" data-pagina="leitura">
+      <div id="leitura"></div>
+    </section>
+
+    <!-- PERSONAGENS -->
+    <section class="pagina pagina-personagens" data-pagina="personagens">
+      <div class="largura largura-larga">
+        <header class="cabecalho-pagina">
+          <p class="sobretitulo">Quem é quem</p>
+          <h1>Personagens</h1>
+          <p class="cabecalho-resumo">Toque num cartão para virar.</p>
+        </header>
+        <div class="grade-personagens" id="grade-personagens"></div>
+      </div>
+    </section>
+
+    <!-- CORRIDA -->
+    <section class="pagina pagina-corrida" data-pagina="corrida" aria-label="Corrida">
+      <div class="mapa" id="mapa" role="application" aria-label="Mapa do trajeto em São Paulo"></div>
+      <div class="folha" id="folha">
+        <button class="folha-alca" id="folha-alca" type="button" aria-label="Recolher painel" aria-expanded="true"><span></span></button>
+        <div class="folha-estado" id="folha-estado" aria-live="polite"></div>
+        <div class="motorista">
+          <div class="motorista-avatar" id="motorista-avatar"></div>
+          <div class="motorista-info">
+            <strong>Eduarda Fragoso</strong>
+            <span class="motorista-nota">★ 5,0</span>
+          </div>
+          <div class="motorista-veiculo">
+            <strong class="placa">CPV-1V4</strong>
+            <span>Carro-capivara</span>
+          </div>
+          <button class="corrida-botao-pilula" id="botao-playlist" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V6l11-2v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.8" fill="currentColor"/><circle cx="17.5" cy="16" r="2.8" fill="currentColor"/></svg>
+            Mudar playlist
+          </button>
+        </div>
+        <div class="folha-acoes" id="folha-acoes"></div>
+        <p class="folha-credito">Site de fã · <a href="https://archiveofourown.org/works/88140211" target="_blank" rel="noopener">Trajeto Perfeito no AO3</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>Site de fã. <em>Trajeto Perfeito</em> pertence a medvedovskyg — <a href="https://archiveofourown.org/works/88140211" target="_blank" rel="noopener">leia também no AO3</a></p>
+  </footer>
+
+  <!-- Janela "Ver mais" das personagens -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal-fundo" data-fechar></div>
+    <div class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modal-nome" tabindex="-1">
+      <button class="modal-x" type="button" data-fechar aria-label="Fechar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="modal-foto" id="modal-foto"></div>
+      <div class="modal-corpo">
+        <p class="modal-apelido" id="modal-apelido"></p>
+        <h2 id="modal-nome"></h2>
+        <p class="modal-papel" id="modal-papel"></p>
+        <div class="modal-texto" id="modal-texto"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barrinha "em viagem" que aparece ao rolar o capítulo -->
+  <div class="viagem-mini" id="viagem-mini" aria-hidden="true"></div>
+
+  <div class="aviso-toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Mapa (Leaflet, gratuito e sem chave). Se um endereço falhar, usa o outro. -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer
+    onerror="var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js';document.head.appendChild(s)"></script>
+  <script src="capitulos.js" defer></script>
+  <script src="personagens.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/corrida.js" defer></script>
+</body>
+</html>

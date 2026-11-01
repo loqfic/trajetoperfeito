@@ -1,0 +1,7 @@
+Coloque aqui as fotos das personagens, com estes nomes:
+
+  lorena.jpg     eduarda.jpg    maggye.jpg     paulinho.jpg
+  gerluce.jpg    zenilda.jpg    daphne.jpg     doutora.jpg
+
+Se uma foto não existir, o site mostra um círculo com a inicial do nome.
+Para usar outro formato (.png, .webp), mude o caminho em personagens.js.
