@@ -10,7 +10,7 @@ Original no AO3: https://archiveofourown.org/works/88140211
 - **Capítulos** — índice automático com palavras e tempo de leitura.
 - **Leitura** (`#capitulo-3`) — tipografia confortável, A−/A+ (14–26 px, salvo), barra de progresso, aviso +18 na primeira vez.
 - **Personagens** — cartões que viram (flip 3D) e janela "Ver mais".
-- **Corrida** — mapa de São Paulo em que uma capivara-carro faz o trajeto Casa da Eduarda → Prédio da Lorena → Faculdade, seguindo as ruas. Sem endereços cadastrados, os pontos são sorteados a cada visita (botão "Sortear outro trajeto").
+- **Corrida** — mapa ilustrado em que uma capivara-carro faz sempre o mesmo trajeto: Casa da Eduarda → Prédio da Lorena (pertinho) → Faculdade.
 
 ## Como editar o conteúdo
 
@@ -19,14 +19,14 @@ Original no AO3: https://archiveofourown.org/works/88140211
 | Capítulos | `capitulos.js` (instruções no topo do arquivo) |
 | Personagens | `personagens.js` |
 | Fotos | arquivo solto (sem pasta) com o mesmo nome do campo `foto` (ex.: `lorena.jpg`) |
-| Trajeto do mapa | objeto `TRAJETO` no topo de `corrida.js` — preencha `endereco` (ex.: `'Rua Augusta, 1500, São Paulo'`) ou `coord`; vazio = ponto sorteado |
+| Nomes, frases e tempos da corrida | objetos `TRAJETO` e `TEMPOS` no topo de `corrida.js` |
 | Sinopse | seção "INÍCIO" em `index.html` |
 
 Sem foto, a personagem aparece com um círculo com a inicial do nome.
 
 ## Tecnologias
 
-HTML, CSS e JavaScript puro — sem build, sem backend, sem banco de dados. Visual inspirado em app de carona (preto e branco, Inter). Google Fonts (Inter; Lora só no texto dos capítulos), Leaflet com tiles gratuitos CARTO `light_all`/`dark_all`, rotas pelas ruas com o servidor público do OSRM e busca de endereços com o Nominatim (OpenStreetMap) — nenhum precisa de chave. Sem internet para a rota, o site desenha um caminho aproximado. Preferências (tema, tamanho da letra, aviso +18, progresso, endereços já encontrados) ficam no `localStorage` do navegador.
+HTML, CSS e JavaScript puro — sem build, sem backend, sem banco de dados. Visual inspirado em app de carona (preto e branco, Inter). Google Fonts (Inter; Lora só no texto dos capítulos). O mapa da Corrida é um desenho feito no próprio código (sem serviço externo, sem chave de API). Preferências (tema, tamanho da letra, aviso +18, progresso) ficam no `localStorage` do navegador.
 
 ## Rodar localmente
 
