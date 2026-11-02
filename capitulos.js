@@ -5593,7 +5593,7 @@ E que ela estava sorrindo feito uma idiota desde o instante em que os lábios da
   },
   {
     numero: 10,
-    titulo: "Capítulo 10",
+    titulo: "Soninho",
     texto: `
 A semana seguinte começou normalmente. Na segunda-feira, Eduarda buzinou às seis e vinte e três da manhã, dois minutos antes do horário que as duas tinham estabelecido sem nunca, de fato, estabelecer. Lorena desceu com o cabelo ainda úmido, uma mochila pendurada em um ombro só e um copo de café que quase derramou quando entrou no carro. A ruiva reclamou da falta de pontualidade, embora tivesse chegado cedo demais para reclamar de alguma coisa, e Lorena respondeu que, se ela continuasse falando antes das sete da manhã, seria obrigada a demitir Eduarda do cargo de motorista particular. Ela disse que aceitaria a demissão desde que Lorena encontrasse uma mulher tão bonita e tão generosa quanto ela para assumir a vaga.
 
