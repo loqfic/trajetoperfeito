@@ -25,7 +25,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <!-- Sempre busca a versão mais nova dos arquivos (evita o navegador mostrar versão antiga) -->
+  <script>window.TP_VERSAO = Math.floor(Date.now() / 60000);</script>
+  <script>document.write('<link rel="stylesheet" href="style.css?v=' + window.TP_VERSAO + '">');</script>
+  <noscript><link rel="stylesheet" href="style.css"></noscript>
 </head>
 <body>
   <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -274,9 +277,10 @@
   <div class="viagem-mini" id="viagem-mini" aria-hidden="true"></div>
 
   <div class="aviso-toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="capitulos.js" defer></script>
-  <script src="personagens.js" defer></script>
-  <script src="app.js" defer></script>
-  <script src="corrida.js" defer></script>
+  <script>
+    ['capitulos.js', 'personagens.js', 'app.js', 'corrida.js'].forEach(function (arquivo) {
+      document.write('<script src="' + arquivo + '?v=' + window.TP_VERSAO + '"><\/script>');
+    });
+  </script>
 </body>
 </html>
