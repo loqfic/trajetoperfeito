@@ -5590,5 +5590,604 @@ Lá embaixo, Eduarda ainda precisava entrar no carro, ligar o motor e dirigir at
 
 E que ela estava sorrindo feito uma idiota desde o instante em que os lábios das duas se separaram.
 `
+  },
+  {
+    numero: 10,
+    titulo: "Capítulo 10",
+    texto: `
+A semana seguinte começou normalmente. Na segunda-feira, Eduarda buzinou às seis e vinte e três da manhã, dois minutos antes do horário que as duas tinham estabelecido sem nunca, de fato, estabelecer. Lorena desceu com o cabelo ainda úmido, uma mochila pendurada em um ombro só e um copo de café que quase derramou quando entrou no carro. A ruiva reclamou da falta de pontualidade, embora tivesse chegado cedo demais para reclamar de alguma coisa, e Lorena respondeu que, se ela continuasse falando antes das sete da manhã, seria obrigada a demitir Eduarda do cargo de motorista particular. Ela disse que aceitaria a demissão desde que Lorena encontrasse uma mulher tão bonita e tão generosa quanto ela para assumir a vaga.
+
+Lorena riu. Como sempre.
+
+Na terça-feira, discutiram sobre a playlist do carro durante todo o caminho até a faculdade. Na quarta, Eduarda apareceu com um pacote de biscoitos porque, segundo ela, tinha descoberto que a passageira era incapaz de lembrar que os seres humanos precisavam se alimentar entre o café da manhã e o almoço. Na quinta, Lorena encontrou uma caneta roxa que tinha perdido havia semanas no porta-luvas, e Eduarda confessou que a guardara ali porque sabia que era sua cor predileta e ficaria chateada se não a encontrasse mais.
+
+Tudo continuava igual e, ao mesmo tempo, Lorena tinha a impressão de que nada era exatamente como antes.
+
+O beijo tinha acontecido havia alguns dias, mas permanecia nela com uma insistência que beirava o ridículo. Não era nem mesmo a lembrança dos lábios de Eduarda nos seus que mais a perturbava, embora essa parte fosse difícil de ignorar, era o que tinha vindo depois. A sensação de tudo ter continuado normal a assustava, a ausência de arrependimento dela de ter tomado a iniciativa também. O fato de a ruiva ter continuado aparecendo no portão do prédio todas as manhãs como se nada tivesse acontecido, como se o beijo, por menor que fosse, não tivesse alterado a órbita do planeta e a organização inteira de sua rotina.
+
+Como se não tivesse acontecido nada. Como se tivesse acontecido tudo. Lorena não sabia o que fazer com aquela contradição.
+
+Na faculdade, as coisas também continuaram normalmente. Ela, Eduarda, Maggye e Daphne almoçavam juntas quase todos os dias, ocupando a mesma mesa de sempre para fofocar ou falar mal de algum professor específico. Lorena participava das conversas, ria das piadas, roubava batatas do prato de Eduarda e discutia com Maggye sobre qualquer assunto que permitisse às duas fingir que estavam prestes a romper uma amizade de anos por divergências ideológicas sobre o melhor sabor de salgadinho (para Lorena, era Ruffles. Maggye prefere Doritos).
+
+Por fora, era a mesma Lorena de sempre. Por dentro, ela estava começando a perder a capacidade de prestar atenção em qualquer coisa que não fosse Eduarda.
+
+Não de uma maneira óbvia, pelo menos não para quem não a conhecesse bem. Lorena ainda conseguia sustentar uma discussão inteira sem olhar para a ruiva, ainda fazia suas anotações durante as aulas e ainda era capaz de revirar os olhos quando Eduarda contava uma piada ridícula. Mas começou a perceber detalhes que antes passavam despercebidos ou que, talvez, sempre tivessem estado ali, esperando que ela tivesse coragem de enxergá-los. Como por exemplo, ela sempre franzia o nariz para rir e Lorena achava isso a coisa mais graciosa do mundo.
+
+Lorena reparou, sobretudo, na maneira como Eduarda cuidava dela sem fazer disso um grande mousse.
+
+Eduarda nunca "anunciava" suas gentilezas. Não dizia que tinha decorado o pedido de café de Lorena, apenas aparecia com o copo certo, não fazia comentários sobre o fato de ela quase sempre esquecer de levar um casaco, apenas deixava um sobrando no carro, não transformava as caronas em favores, não cobrava companhia, não fazia perguntas quando percebia que Lorena estava quieta demais. Às vezes, apenas diminuía o volume do rádio e continuava dirigindo sem questionar.
+
+A menina inteligente que não precisava de ajuda, a adolescente que sabia argumentar, que tinha opinião sobre tudo e não recuava quando acreditava estar certa. A filha que tentava não dar trabalho à mãe, mesmo quando estava desmoronando por dentro, a amiga que fazia piada antes que alguém percebesse que uma pergunta tinha acertado um lugar sensível. A mulher que aprendeu a transformar a própria independência em uma espécie de armadura e, depois de tantos anos usando-a, já não sabia muito bem como tirá-la sem sentir que estava ficando vulnerável demais. A mulher que agora estava aprendendo a ser amada da maneira certa.
+
+Lorena tinha se acostumado a ser a pessoa que resolvia as coisas sozinha, que pensava antes de agir, que encontrava uma explicação para quase tudo. Gostava de acreditar que conseguia compreender os próprios sentimentos se lhes dedicasse tempo suficiente, como se o coração fosse um texto difícil e bastasse reler os parágrafos incansavelmente até encontrar a interpretação correta.
+
+Mas Eduarda não se parecia com nenhum problema que Lorena já tivesse tentado resolver, pelo contrário. Ela parecia uma solução.
+
+Não havia uma explicação racional que desse conta da vontade que sentia de contar alguma coisa a ela assim que acontecia. Não existia argumento convincente para justificar por que um dia ruim parecia um pouco menos insuportável quando terminava com Eduarda sentada ao seu lado, dirigindo enquanto reclamava de alguma coisa banal. E nenhuma teoria parecia suficiente para explicar por que, às vezes, Lorena se pegava imaginando Eduarda conhecendo seus lugares favoritos, dormindo juntas, mandando mensagem no meio de uma tarde qualquer porque tinha visto alguma coisa que tivesse lembrado Lorena.
+
+Não eram fantasias grandiosas. Lorena não ficava imaginando declarações dramáticas ou cenas dignas de um filme romântico (ou talvez imaginasse sim, mas não queria admitir). O que a pegava desprevenida era pensar na possibilidade de Eduarda continuar ali quando não houvesse nenhuma ocasião especial que justificasse sua presença.
+
+Um domingo sem planos, uma noite ruim, um dia em que estivesse cansada demais para fingir que sabia lidar com tudo. E se ela se enjoasse de mim?
+
+A possibilidade de ser amada nos dias comuns era muito mais assustadora do que qualquer grande gesto.
+
+Porque, se alguém pudesse gostar dela assim, sem que ela precisasse conquistar cada pedaço de atenção, então Lorena teria que encarar uma outra pergunta para a qual não estava preparada: por que passei tanto tempo acreditando que precisava merecer afeto?
+
+Era sexta-feira, Doutora Deolane apareceu perto do gramado do campus, caminhando com a tranquilidade de quem não tinha um boleto para pagar. Lorena estava no meio de uma frase quando viu a capivara se aproximando e deu um grito tão alto que Daphne quase derrubou seu suco de uva no próprio colo.
+
+— Puta que pariu, que susto do caralho!
+
+Eduarda começou a rir alto.
+
+— Meu Deus, Lorena! É a Doutora!
+
+— Eu sei!
+
+— Então por que você gritou desse jeito?
+
+— Porque ela aparece do nada e eu não tô acostumada com isso!
+
+Daphne já estava curvada sobre a mesa, rindo com lágrimas nos olhos. Maggye, que tinha desenvolvido o hábito de filmar os surtos da amiga para postar no seu daily do Instagram e usar como chantagem emocional em ocasiões futuras, ergueu o celular imediatamente.
+
+— Fala alguma coisa pros seus fãs, Lorena.
+
+— Maggye, eu vou jogar esse celular no lago.
+
+— Manda um beijo, pelo menos.
+
+Eduarda, ainda rindo, colocou a mão no ombro de Lorena.
+
+— Calma, *amor*, ela não vai te fazer nada.
+
+*AmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmorAmor*.
+
+Lorena parou no tempo. Não chegou a ficar 100% imóvel, nem perdeu completamente a expressão irritada que vinha sustentando. Apenas olhou para Eduarda por uma fração de segundo, tempo suficiente para a ruiva perceber que tinha causado um efeito diferente em Lorena. O sorriso dela diminuiu um pouco, e as duas ficaram se encarando até Daphne, completamente alheia à mudança de atmosfera, perguntar se alguém queria mais batata.
+
+— Eu vou comprar um suco de maracujá — Lorena anunciou, levantando-se depressa.
+
+— Você acabou de tomar um, Lorena. — Maggye observou.
+
+— E agora vou tomar outro, ué.
+
+— Tá nervosa, é? Dizem que suco de maracujá acalma.
+
+— Pois bem, vou tomar uns cinquenta copos desse suco. — Ela saiu antes que uma das três respondesse alguma coisa.
+
+Ela só percebeu o absurdo da própria reação quando chegou à fila do refeitório. *Puta merda, que vexame, Lorena.*
+
+Mas foi ali, com um copo de suco de maracujá entre as mãos e a risada de Eduarda ecoando do outro lado do gramado, que Lorena começou a suspeitar de que não estava só gostando de alguém. Estava apaixonada.
+
+Lorena olhou de longe para Eduarda, que agora discutia com Daphne sobre a aula que tiveram mais cedo, e sentiu uma espécie de vertigem.
+
+*Ah, não.*
+
+Pensamento n°1.
+
+Depois, como se a própria cabeça estivesse empenhada em tornar tudo pior, veio outro.
+
+*Ah, meu Deus.*
+
+Pensamento n°2.
+
+*Eu tô apaixonada pela Eduarda.*
+
+Pensamento n°3.
+
+Não havia mais como fingir que aquilo era curiosidade, atração ou o resultado de semanas de convivência. Não era só pelo beijo, nem a vontade de beijá-la de novo, embora Lorena tivesse pensado nisso mais vezes do que considerava razoável admitir. Era a vontade de estar perto, a preocupação quando Eduarda demorava a responder uma mensagem, quando seu humor melhorava toda vez que encontrava a ruiva esperando por ela na frente do prédio. Ela sentia vontade de contar coisas que nunca tinha contado a ninguém só porque queria que ela soubesse. Queria que ela soubesse quem Lorena era quando não estava tentando ser forte.
+
+Queria que Eduarda conhecesse suas manias, suas opiniões insuportáveis, os poemas que escrevia e escondia, os livros que relia quando precisava se sentir menos sozinha, quais músicas a faziam chorar, quais lembranças ainda doíam e quais partes da própria história ela não conseguia contar sem sentir que estava novamente presa dentro delas. Queria poder falar sobre as coisas boas sem ter medo de que a felicidade parecesse uma provocação ao passado.
+
+Ela queria dividir uma vida com a Eduarda.
+
+Não de uma maneira descontrolada, Lorena não tinha esquecido o que aprendera sobre limites, nem pretendia abandonar a própria individualidade só porque alguém tinha conseguido atravessar uma parte da sua resistência. Mas queria tentar, e essa era a parte que mais a assustava.
+
+Porque estar apaixonada significava, entre tantas outras coisas, aceitar que agora existia um sentimento dentro de si que ela não podia controlar. Podia escolher o que dizia, quando se aproximava, quanto de si estava disposta a revelar, mas não podia garantir que a ruiva continuaria sentindo o mesmo depois de conhecê-la melhor, não podia assegurar que a relação daria certo, que nenhum mal-entendido surgiria, que as duas não acabariam machucando uma à outra sem querer. Ela sabia que Eduarda não era um monstro, mas sua insegurança gritava.
+
+Lorena tinha medo. *E muito*.
+
+Durante muito tempo, tinha acreditado que amar significava aceitar que, cedo ou tarde, alguma coisa em você seria usada contra você. Não era uma crença que ela formulasse conscientemente, mas estava entranhada na maneira como reagia quando alguém chegava muito perto.
+
+Quando recebia carinho, Lorena sentia vontade de oferecer alguma coisa em troca, como se a ternura fosse um empréstimo e ela precisasse pagar os juros antes que a cobrança começasse.
+
+Com Eduarda, aquilo estava ficando impossível.
+
+A ruiva nunca parecia estar esperando uma versão mais fácil de Lorena. Não pedia que ela fosse menos irônica, menos questionadora, menos intensa. Não se afastava quando Lorena precisava de silêncio, nem fazia da sua vulnerabilidade uma característica que a definia por inteiro. Eduarda conseguia enxergar quando alguma coisa doía sem transformar a dor no único assunto possível. Conseguia rir com ela, discordar dela, chamá-la de insuportável e, ainda assim, deixar claro que gostava de tê-la por perto.
+
+Eduarda nunca exigiu absolutamente nada e Lorena não sabia muito bem o que fazer quando não precisava lutar para permanecer. Talvez fosse por isso que estivesse tão assustada com a própria vontade de ficar, uma parte dela queria se aproximar de Eduarda sem medir cada movimento, saber seus hobbies, conhecer a família...
+
+Mas havia outra parte, igualmente insistente, que queria fugir antes que tudo aquilo se tornasse impossível de desapegar.
+
+*E se Eduarda gostasse apenas da minha versão vulnerável?*
+
+*E se, quando eu começasse a melhorar, a precisar menos de ajuda, a recuperar o próprio equilíbrio, Eduarda percebesse que não havia tanto assim pra amar em mim?*
+
+Os pensamentos a atingiram com uma força desproporcional.
+
+Lorena baixou os olhos para o suco, já morno, e apertou o copo entre os dedos.
+
+Era injusto com Eduarda. Sabia disso. A ruiva nunca tinha dado qualquer motivo para que ela duvidasse de suas intenções, e seria absurdo transformar todos os gestos de carinho em sinais de uma futura rejeição. Ainda assim, a insegurança não desaparecia só porque Lorena conseguia identificá-la. Às vezes, compreender de onde vinha uma ferida não fazia com que ela doesse menos.
+
+O problema era que Lorena não estava apenas com medo de ser machucada, estava com medo de querer tanto alguém que a possibilidade de perdê-la passasse a fazer parte de tudo.
+
+Até então, tinha aprendido a sobreviver às ausências de pessoas que não souberam ficar. Tinha construído uma vida inteira em torno da ideia de que podia seguir em frente, que conseguiria encontrar algum sentido mesmo quando as coisas não acontecessem como desejava. Era uma habilidade que valorizava em si mesma, uma prova de que, apesar de tudo, tinha conseguido continuar. Mas, pela primeira vez, ela não queria descobrir se conseguiria sobreviver a uma perda. Queria que desse certo.
+
+Queria ter a chance de construir uma relação em que não precisasse estar sempre preparada para o pior, aprender a discutir sem temer o abandono, a demonstrar afeto sem sentir que estava entregando uma arma a alguém, a dizer que sentia saudade sem achar que isso a tornava dependente, descobrir se era possível ser amada sem precisar diminuir as próprias necessidades para caber no espaço que outra pessoa oferecia. E, sobretudo, queria descobrir quem seria Lorena quando não estivesse ocupada tentando impedir que alguém a machucasse.
+
+Talvez fosse mais leve. Ou continuasse sendo teimosa, sarcástica. Não queria se tornar uma pessoa diferente para ser amada, mas sim parar de acreditar que as partes mais difíceis de si mesma eram, necessariamente, as partes que alguém teria mais vontade de abandonar.
+
+Eduarda não tinha prometido nada, mas continuava ali. Continuava a buscá-la todas as manhãs, dividindo o almoço com ela, reclamando das músicas que Lorena escolhia e rindo das suas reações exageradas à Doutora. Não tinha desaparecido depois dos beijos, nem mudado de comportamento para fazer Lorena se sentir culpada por ter tomado a iniciativa. Continuava sendo Eduarda, com suas piadas ruins, suas receitas, suas histórias e aquele jeito irritantemente sincero de demonstrar afeto.
+
+Lorena começou a perceber que podia ter medo e, ainda assim, querer tentar. Podia não estar pronta para contar tudo sobre o passado e, mesmo assim, permitir que Eduarda conhecesse um pouco mais de si a cada dia e aprender a ser amada sem precisar provar, antes, que era fácil de amar.
+
+O pensamento a fez sentir vontade de chorar, o que era inconveniente na cabeça dela já que ela estava no meio do campus, com três amigas a poucos metros e uma capivara passeando tranquilamente pelo gramado como se não tivesse causado nenhum dos problemas existenciais que agora ocupavam sua cabeça.
+
+Lorena respirou fundo e ergueu os olhos, Eduarda estava olhando para ela pois deve ter percebido que Lorena estava longe demais para voltar à mesa. Quando os olhares se encontraram, Eduarda sorriu e levantou a própria bolsa com a chave do carro pendurada nela, sinalizando se queria ir embora, oferecendo-a à distância.
+
+Lorena balançou a cabeça, indicando que estava bem, então Eduarda não insistiu.
+
+Meio que isso acabou com a Lorena. Porra, ela percebeu de longe que eu tô travada há 5 minutos tendo milhões de pensamentos ao mesmo tempo.
+
+Eduarda não precisava entender cada silêncio de Lorena para respeitá-lo, nem arrancar uma explicação dela para continuar sentada à mesma mesa. Talvez amar fosse também aquilo: encontrar alguém diante de quem você não precisasse estar sempre traduzindo a própria existência. Alguém com quem pudesse compartilhar o que conseguia dizer e guardar, por enquanto, o que ainda não tinha palavras. Alguém que não confundisse o seu silêncio com desinteresse, nem sua dificuldade em pedir ajuda com falta de confiança.
+
+Lorena olhou para Eduarda por mais alguns segundos.
+
+*“Eu tô apaixonada por você.”* Pensou, e a frase, dentro da própria cabeça, pareceu muito mais séria do que qualquer coisa que já tivesse dito em voz alta.
+
+Ela não sabia se Eduarda estava apaixonada por ela, se a ruiva queria o mesmo tipo de relação, se também imaginava um futuro ou se ainda estava tentando entender o que aquele beijo significava. Não podia preencher as lacunas com suposições só porque desejava muito que as respostas fossem favoráveis.
+
+Mas sabia que estava apaixonada e não queria fugir desse sentimento.
+
+[...]
+
+Naquela noite, Lorena demorou quase quarenta minutos para conseguir tomar banho porque ficou sentada na beirada da cama durante boa parte do tempo, ainda com a roupa da faculdade, olhando para o próprio celular como se o aparelho pudesse lhe oferecer uma resposta de todas as paranóias que passavam pela sua cabeça.
+
+Eduarda tinha mandado uma mensagem pouco depois de deixá-la em casa.
+
+**Eduarda**: percebi que hoje no caminho você ficou mais caladinha... se quiser conversar, tô por aqui! <3
+
+**Lorena**: relaxa, tá tudo bem! obrigada por se preocupar :)
+
+Logo depois disso, a conversa terminou com uma figurinha patética de um gatinho com vários corações em volta que Eduarda enviou e que Lorena salvou imediatamente, embora jamais admitisse que fizera isso.
+
+Lorena queria enviar outra mensagem, conversar mais. Queria perguntar se Eduarda tinha pensado no beijo, se tinha gostado da iniciativa, se havia alguma coisa que a ruiva estava esperando que ela dissesse. Queria descobrir se o sorriso que tinha visto no estacionamento significava alguma coisa ou se estava projetando sentimentos demais em um gesto que talvez fosse apenas surpresa.
+
+Mas também morria de medo de perguntar.
+
+Não porque achasse que Eduarda fosse cruel, era justamente o contrário. Lorena confiava tanto na gentileza dela que sabia que receberia uma resposta cuidadosa, mesmo que não fosse a resposta que desejava. Além disso, ainda existia a questão de como se aproximar de alguém quando você não sabia muito bem como funcionava a intimidade fora dos próprios mecanismos de defesa. Lorena sabia flertar, sabia provocar, fazer comentários ambíguos, sustentar um olhar para deixar claro que estava interessada. O problema era que aquilo tinha sido fácil enquanto ela podia fingir que não havia nada em jogo. Agora que sabia que estava apaixonada, cada gesto parecia carregar uma pergunta escondida. *Se segurasse a mão de Eduarda, seria demais? Se mandasse uma mensagem dizendo que estava com saudade, pareceria carente? Se contasse que tinha passado o dia inteiro pensando nela, a ruiva entenderia a intensidade daquilo ou se sentiria pressionada a corresponder?*
+
+E, se Lorena não fizesse nada, quanto tempo conseguiria continuar fingindo que estava perfeitamente confortável com a incerteza?
+
+*Chega.*
+
+Ela se levantou, finalmente foi tomar banho e voltou para o quarto com o cabelo preso numa toalha. Vestiu um pijama velho, sentou-se na cama e pegou o celular outra vez.
+
+Abriu a conversa com Eduarda.
+
+Digitando...
+
+*Você já pensou no que aconteceu no domingo?*
+
+Apagou.
+
+*Eu queria conversar com você sobre a gente.*
+
+Apagou também, porque a palavra “*gente*” parecia pressupor uma coisa que ela ainda não sabia se existia.
+
+Tentou outra vez:
+
+*Você gosta de mim?*
+
+Lorena fez uma careta tão forte que quase conseguiu sentir a própria alma abandonando o corpo. Apagou a mensagem imediatamente e largou o celular sobre a cama.
+
+— Pelo amor de Deus... — murmurou para o quarto vazio.
+
+Ela não tinha dezoito anos para ficar sentada na cama como uma adolescente que nunca tinha beijado ninguém. A questão era que, por mais que tivesse lido sobre sentimentos, passado horas discutindo relações humanas e construído teorias inteiras sobre o comportamento das pessoas, nada disso a preparava para estar do outro lado da própria vulnerabilidade.
+
+*Realmente, fazer faculdade de psicologia não me tornou menos maluca.*
+
+Para Lorena, era muito mais fácil analisar o amor quando ele pertencia a personagens de um livro, muito mais fácil escrever sobre pessoas que se aproximavam, se afastavam, cometiam erros e aprendiam a confiar. Lorena podia identificar o medo de um personagem, compreender suas contradições e defender suas escolhas com argumentos impecáveis. Podia passar horas explicando que ninguém deveria precisar se tornar menos de si mesmo para caber numa relação.
+
+Mas, quando se tratava dela, a teoria parecia desaparecer.
+
+Ela sabia o que gostaria de dizer a uma amiga naquela situação. Diria que sentir medo não era um sinal de que deveria desistir, que não precisava decidir o futuro inteiro de uma relação antes de dar o próximo passo, que poderia ser honesta sem exigir garantias impossíveis, diria também que o amor não era uma prova que alguém precisava passar, nem uma competição para ver quem se importava menos.
+
+Provavelmente, também diria que a amiga precisava parar de dramatizar e ir dormir.
+
+O problema era que Lorena não conseguia seguir os próprios conselhos, mas havia apenas uma pessoa para quem conseguia admitir isso.
+
+*Maggye*.
+
+Lorena precisava falar com alguém antes que sua própria cabeça transformasse a palavra "amor" numa tragédia de oito temporadas.
+
+Pegou o celular, abriu a conversa e começou a digitar com tanta pressa que errou três palavras na primeira frase.
+
+**Lorena**: maggue bc tá acordqda?????
+
+Enviado.
+
+*Calma, Lorena. Respira.*
+
+Ficou olhando para a mensagem por alguns segundos, com a sensação de que já tinha se comprometido com alguma coisa irreversível. Antes que Maggye pudesse responder, Lorena mandou outra mensagem.
+
+**Lorena**: eu preciso falar com você AGORA pqp
+
+Como se isso ainda não fosse suficiente para comunicar o tamanho do desastre, acrescentou:
+
+**Lorena**: é sobre a eduarda
+
+A resposta chegou rapidamente.
+
+**Maggye**: meu Deus ela morreu?
+
+Lorena soltou uma risada nervosa.
+
+**Lorena**: MAGGYE
+
+**Maggye**: então foi você que morreu?
+
+**Lorena**: EU TÔ FALANDO SÉRIO
+
+**Maggye**: tá bom, calma KKKKKKKKK o que aconteceu?
+
+Lorena passou as duas mãos pelo rosto. Como explicar aquilo? Como colocar em palavras uma coisa que tinha começado com um beijo e agora parecia envolver todas as partes da sua vida que ela ainda estava tentando compreender?
+
+Ela digitou uma frase, apagou. Começou outra, apagou também. Levantou-se para beber água, voltou, sentou-se novamente e ficou olhando para a conversa até Maggye mandar mais uma mensagem.
+
+**Maggye**: lorena, você tá me assustando... fala comigo
+
+Lorena respirou fundo e escreveu, dessa vez sem tentar encontrar a formulação perfeita.
+
+**Lorena**: eu acho que tô apaixonada por ela
+
+Enviado.
+
+O coração disparou como se tivesse acabado de dizer aquilo diretamente a Eduarda.
+
+Maggye visualizou.
+
+Lorena esperou.
+
+Cinco segundos.
+
+Dez.
+
+Vinte.
+
+**Lorena**: fala alguma coisa pelo amor de deus
+
+**Maggye**: tô tentando decidir se te abraço ou se pergunto quanto tempo você achou que conseguiria me esconder isso
+
+Lorena deixou a cabeça cair para trás, soltando um gemido de sofrimento.
+
+**Lorena**: EU NÃO TÔ BRINCANDO
+
+**Maggye**: eu também não, você olha pra eduarda como se ela fosse a mulher mais linda que já pisou nessa terra
+
+*Ué, mas ela é mesmo.*
+
+**Lorena**: eu vou te bloquear, maggye
+
+**Maggye**: bloqueia depois de me explicar tudo oq ta acontecendo nessa cabecinha
+
+Lorena ficou olhando para a tela. Ela tentou responder, mas percebeu que não sabia por onde começar. Não era apenas o medo de não ser correspondida, embora isso estivesse ali, ocupando um espaço considerável. Era tudo o que a possibilidade de ser amada despertava nela, o desejo de confiar em alguém e o receio de que a confiança acabasse custando mais do que podia pagar. Era a vontade de se aproximar e o impulso de correr antes que alguém tivesse a oportunidade de decidir que ela não valia o esforço.
+
+Era, sobretudo, o fato de que Eduarda não tinha feito nada para provocar aquele medo. A ruiva não tinha sido cruel, não tinha exigido explicações, não tinha prometido coisas que não poderia cumprir. Lorena estava assustada justamente porque, pela primeira vez, não conseguia apontar para um motivo concreto que justificasse a fuga.
+
+O perigo não estava no que Eduarda fazia, estava no quanto Lorena queria que aquilo desse certo.
+
+Ela voltou a digitar, agora com os dedos tremendo um pouco.
+
+**Lorena**: porque eu nunca senti isso antes na minha vida, maggye
+
+**Lorena**: nunca.
+
+A resposta demorou alguns segundos, e Lorena continuou antes que a amiga pudesse perguntar qualquer coisa.
+
+**Lorena**: eu nunca fui tratada assim por alguém, não desse jeito
+
+**Lorena**: eu sei que parece ridículo falar isso depois de tudo que aconteceu, mas ela faz coisas tão pequenas e eu fico pensando nelas o dia inteiro
+
+**Lorena**: ela lembra das coisas que eu gosto, percebe quando eu não tô bem, não fica me pressionando pra falar quando eu não consigo, ela me trata como se eu fosse alguém que vale a pena conhecer mesmo quando eu tô sendo insuportável
+
+Ela parou, sentindo os olhos arderem.
+
+**Lorena**: e eu gosto dela, muito
+
+**Lorena**: tipo, muito MESMO
+
+**Lorena**: eu penso nela quando acordo, quando tô na aula, quando vejo alguma coisa idiota na rua, eu quero contar tudo pra ela e, ao mesmo tempo, morro de medo de ela saber demais sobre mim
+
+Dessa vez, Lorena não apagou a mensagem. Continuou escrevendo, como se, depois de atravessar a primeira barreira, não conseguisse mais fingir que as palavras não estavam esperando para sair.
+
+**Lorena**: eu quero que ela me conheça de verdade, mas e se ela me conhecer e não gostar? e se ela gostar dessa versão de mim agora porque eu tô deixando ela cuidar de mim, mas depois perceber que eu sou complicada pra caralho? e se eu começar a precisar dela de um jeito que eu não sei lidar?
+
+**Lorena**: eu não quero colocar esse peso nela, sabe? eu não quero que ela sinta que precisa me salvar de nada
+
+As lágrimas começaram a se acumular, e Lorena as enxugou com a manga da blusa, irritada consigo mesma por estar chorando sozinha no quarto.
+
+**Lorena**: mas também não quero ficar fugindo de uma coisa boa só porque eu tô com medo
+
+**Lorena**: eu quero tentar, maggye. acho que é isso que tá me assustando mais, eu quero tentar de verdade
+
+Ela enviou a última mensagem e deixou o celular cair sobre o colo.
+
+O celular vibrou.
+
+**Maggye**: amiga, posso ir aí??
+
+Lorena não pensou muito.
+
+**Lorena**: por favor
+
+Não levou muito tempo até que a campainha tocasse. Lorena se levantou e foi abrir a porta. Maggye a cumprimentou com um abraço apertado, demorando alguns segundos a mais do que o normal antes de se afastar.
+
+— Vem, vamos pro meu quarto. — Lorena disse com a voz falhando.
+
+As duas subiram em silêncio, era mais confortável para Lorena desse jeito e Maggye já sabia, apenas acariciou as costas da amiga e a seguiu até o cômodo, sentando-se na cama ao lado dela.
+
+Lorena respirou fundo, buscando as palavras enquanto Maggye acariciava sua mão.
+
+— Respira um pouquinho e me conta o que tá passando nessa sua cabeça. — Maggye começou.
+
+Lorena se deitou de lado, puxando o travesseiro para perto do peito. Ficou olhando para a parede enquanto procurava uma maneira de explicar o que tanto pesava sua mente.
+
+— Eu não sei se eu consigo fazer isso — confessou.
+
+— Fazer o quê?
+
+— Me permitir gostar dela desse jeito. — Ela fechou os olhos. — Não é que eu não queira, Maggye. Eu quero. Esse é o problema. Eu quero muito, e eu não sei o que fazer com isso.
+
+— Você acha que precisa saber o que fazer agora? — Maggye perguntou.
+
+— Eu não sei.
+
+— Porque, sinceramente, eu acho que você tá tentando resolver o final de uma história que mal começou.
+
+Lorena riu baixinho, sabia que isso infelizmente era verdade, e Maggye esperou até que o riso desaparecesse.
+
+— Escuta, Lô. Eu conheço você há tempo suficiente pra saber que você não entra nas coisas pela metade quando elas realmente importam. Você pensa, repensa, faz uma lista mental de tudo que pode dar errado e, quando percebe que ainda existe uma chance de se machucar, tenta encontrar um jeito de sair antes de precisar descobrir se vale a pena ficar.
+
+Lorena não disse nada.
+
+— Eu não tô falando isso pra te julgar, tá? Eu entendo por que você faz isso. Você teve que aprender a se proteger de muita coisa. Só que se proteger de alguém que te machuca e se proteger de alguém que pode te amar são coisas diferentes.
+
+Lorena apertou o travesseiro contra o peito.
+
+— E se eu não souber diferenciar?
+
+— Então você aprende, com o tempo. Prestando atenção no que acontece de verdade, não só no que você tem medo que aconteça.
+
+— Parece muito fácil quando você fala.
+
+— Não acho fácil, acho que vai ser difícil pra caralho. Você vai ficar insegura, vai pensar demais, vai querer fugir em algum momento e vai me mandar mensagens de madrugada dizendo que destruiu a própria vida só porque a Eduarda demorou vinte minutos pra responder uma mensagem.
+
+Lorena riu outra vez, dessa vez com um pouco mais de vontade.
+
+— Idiota.
+
+— Mas eu também acho que você pode viver isso sem precisar se abandonar no processo. Uma coisa não precisa significar a outra, Lô. Você pode gostar dela e continuar sendo você. Pode querer ficar perto e ainda ter seus próprios espaços, contar coisas quando estiver pronta e dizer que não consegue falar sobre alguma coisa quando não estiver... A Eduarda não precisa ser a responsável por manter você de pé, entende?
+
+Lorena ficou quieta, absorvendo cada palavra.
+
+— E você não precisa entregar sua vida inteira pra ela amanhã — Maggye continuou. — Não precisa contar tudo sobre o seu passado, ter uma conversa definitiva sobre o futuro de vocês, não precisa decidir agora se vai namorar, casar, adotar três gatos e dar o nome de Aurora pra uma criança. Eu sei que lésbica é emocionada mesmo, mas não precisa disso. — Brincou.
+
+— Eu nunca daria o nome de Aurora pra uma criança, Maggye.
+
+— Ufa, então essa parte já tá resolvida.
+
+Lorena riu, escondendo o rosto no travesseiro.
+
+— Você é ridícula...
+
+— Sou uma ridícula que tá tentando te lembrar que você pode dar um passo de cada vez. — O tom de Maggye ficou mais suave.
+
+— Eu tenho medo de estragar tudo... — sussurrou. — Ela é tão... boa comigo, Maggye. E eu gosto tanto dela que, às vezes, parece que qualquer coisa que eu faça pode estragar isso. Eu não quero colocar esse peso nela. Não quero que ela sinta que precisa lidar com coisas que não são dela. Não quero começar a precisar dela pra tudo e depois não conseguir mais…
+
+— Então tenta lembrar disso. — Maggye a interrompeu antes que ela terminasse de falar — Você não precisa fazer da Eduarda sua única fonte de carinho, nem colocar nela a responsabilidade por tudo que você sente. Mas também não precisa fingir que não precisa de ninguém. As duas coisas podem ser verdade ao mesmo tempo. Você pode ser independente e querer colo, cuidar de si mesma e aceitar que alguém faça café pra você, ter medo de se machucar e, mesmo assim, decidir conhecer uma pessoa.
+
+Lorena não conseguia responder absolutamente nada. Ouvir que ela não precisava ser forte o tempo inteiro era algo absurdo na sua cabeça. Ser forte tinha sido, durante muito tempo, a única maneira de não depender de quem poderia falhar com ela. Agora, pela primeira vez, Lorena estava começando a perceber que não precisava escolher entre ser capaz de cuidar de si mesma e permitir que alguém cuidasse dela também.
+
+— Eu sei que parece ridículo. Eu sei que você vai dizer que eu não sou, mas eu penso nisso o tempo inteiro. Eu tenho tanta coisa que ainda não sei resolver em mim. Tem dias em que eu não consigo falar sobre certas coisas, tem dias em que eu fico mal sem saber explicar por quê. Eu tenho medo de que, quando ela conhecer essas partes, perceba que eu não sou tão boa assim. Que sou muito trabalho. Que gostar de mim é mais complicado do que parece...
+
+— Você não precisa ser uma pessoa sem problemas pra ser amada, Lorena. — Maggye fez uma pausa — Você precisa ser uma pessoa que esteja disposta a construir uma relação de verdade, com respeito, honestidade e responsabilidade pelo que sente. E, pelo que eu conheço de você, você se preocupa tanto em não machucar ninguém que às vezes esquece que também merece ser tratada com cuidado.
+
+Lorena fechou os olhos, absorvendo tudo que estava sendo dito pela amiga.
+
+— Maggye?
+
+— Oi.
+
+— Você acha que eu devia falar com ela?
+
+— Sobre o beijo?
+
+— Sobre... isso tudo. Não sei. Sobre gostar dela. Sobre querer continuar, mas estar com medo.
+
+Maggye demorou um pouco para responder, como se estivesse escolhendo as palavras com cuidado.
+
+— Eu acho que você pode falar com ela quando conseguir fazer isso porque quer dividir o que sente, não porque precisa que ela te dê uma garantia de que nada vai dar errado.
+
+Lorena ficou em silêncio.
+
+— Você não precisa chegar pra Eduarda com uma lista de todos os seus medos e pedir que ela prove que não vai te machucar. Isso não seria justo com nenhuma das duas, mas também não precisa fingir que tá tranquila se não está. Você pode dizer que gosta dela, pode dizer que quer descobrir o que isso significa, dizer que ainda tem medo. Uma coisa não anula a outra, sabe?
+
+— E se ela não souber o que responder?
+
+— Então vocês descobrem juntas o que fazer com isso. Ou descobrem que querem coisas diferentes. Você não tem como controlar a resposta dela, Lô. Só pode ser honesta sobre a sua.
+
+Lorena permaneceu em silêncio, sem saber como responder.
+
+— Olha, posso te falar uma coisa? Você fica tão bem com a presença dela e com a sua que eu duvido que não seja recíproco. Não deixa de tentar por medo, Lorena. Tenta porque você gosta dela e porque ela parece gostar de você. Coloca na sua cabeça que você merece descobrir como é viver uma coisa boa sem passar o tempo inteiro esperando que ela acabe.
+
+Lorena respirou fundo.
+
+— Tá. Eu prometo que vou tentar.
+
+— E, se ficar difícil, você me chama. Eu vou estar sempre aqui.
+
+— Mesmo se for no meio da noite?
+
+— Principalmente se for no meio da noite! Mas, se você me mandar mensagem às duas da manhã por causa de paranóia da sua cabeça, eu vou ignorar você até o sol nascer.
+
+Lorena riu alto, finalmente, e o som pareceu aliviar o que parecia estar apertado dentro dela havia dias.
+
+— Eu te amo, sabia?
+
+— Eu também te amo, apaixonadinha.
+
+— Vai se foder. Não me chama assim.
+
+— Tá bom, apaixonadinha.
+
+— Maggye!
+
+[...]
+
+O assunto sobre Eduarda acabou se dissolvendo aos poucos, como acontecia quase sempre quando Maggye estava por perto. Depois de mais alguns minutos de conversa, as duas já discutiam se a Eleven de Stranger Things estava viva ou não depois daquele final da última temporada que fez as duas chorarem litros juntas na virada de Ano-Novo.
+
+Estavam deitadas atravessadas na cama, com as pernas emboladas sob o cobertor e os celulares nas mãos. Maggye ocupava boa parte do colchão, enquanto Lorena tentava encontrar uma posição confortável sem precisar pedir que a amiga parasse de se espalhar cada vez mais na cama.
+
+— Você sabe que tem uma cama de casal inteira aqui, né? — Lorena comentou, empurrando o ombro dela.
+
+— Sei. Qual o problema?
+
+— Você tá ocupando a minha parte.
+
+— Nossa, que egoísmo. Depois de tudo que fiz por você hoje...
+
+— Você veio aqui porque quis.
+
+— E olha como sou recebida. Que coisa feia, Lorena.
+
+Lorena soltou uma risada e voltou a olhar para o celular. A conversa continuou por alguns minutos, mas logo depois Maggye se cansou e começou a assistir alguma novela na televisão do quarto de Lorena, que não se interessou muito pela programação e voltou a mexer no celular. Até que uma notificação apareceu no alto da tela.
+
+**Eduarda**: tá acordada ainda?
+
+Lorena reconheceu o nome antes de terminar de ler a notificação. O coração deu um salto tão desproporcional que ela precisou conferir se não estava sonhando.
+
+**Lorena**: tô sim, por que?
+
+**Eduarda**: ah, nada demais
+
+**Eduarda**: mas fica difícil dormir quando tem alguém ocupando meus pensamentos
+
+Lorena mordeu o canto do lábio. Não respondeu imediatamente. Leu a mensagem outra vez, olhou para a televisão sem realmente enxergar o que estava passando e voltou à conversa.
+
+*Meu pai do céu.*
+
+**Lorena**: e posso saber quem é esse alguém?
+
+A resposta não demorou a aparecer.
+
+**Eduarda**: você, né? quem mais seria?
+
+**Eduarda**: só conheço uma garota que me deixou sem palavras depois de me dar um selinho de despedida
+
+*Puta que pariu, ela falou do beijo.*
+
+*Puta que pariu, Lorena.*
+
+**Lorena**: e você gostou?
+
+**Eduarda**: muito
+
+**Eduarda**: mas não vou mentir, acho que mereço mais que um selinho
+
+*Canalha*.
+
+**Lorena**: é só você me pedir que eu te dou o que você quiser
+
+Nem a própria Lorena acreditava que tinha enviado isso. Maggye já estava no décimo oitavo sono enquanto segurava o controle remoto da televisão. Lorena levantou, pegou suavemente de sua mão para que não acordasse e desligou a TV, deixando o objeto na cabeceira e caminhando até o banheiro.
+
+Lorena trancou a porta e sentou na tampa do vaso, ali ela poderia surtar sem acordar ninguém. Ligou o celular novamente, já percebendo que havia uma resposta de Eduarda.
+
+**Eduarda**: o que eu quiser, é?
+
+**Lorena**: uhum, o que você quer?
+
+**Eduarda**: não vou entregar assim de bandeja, né?
+
+**Eduarda**: mas, posso abrir uma exceção se você me falar o que VOCÊ quer
+
+Lorena, assim como qualquer outro ser humano, também sentia tesão. E isso provavelmente era algo que ela estava sentindo no corpo todo naquele momento.
+
+**Lorena**: queria você aqui na minha frente agora
+
+Lorena conseguia separar as coisas. Pelo menos naquele momento, conseguia. Uma coisa era estar apaixonada por Eduarda, com todos os medos miseráveis que vinham junto, com a possibilidade de se apegar demais, de ser rejeitada, de entregar partes de si que não sabia se conseguiria recuperar depois. Outra, bastante diferente, era querer aquela mulher. Querer sua boca, suas mãos, seu corpo. Ter pensamentos nada inocentes sobre o que faria se estivessem sozinhas, sem precisar fingir compostura ou encontrar uma maneira bonita de dizer que estava com muito tesão.
+
+**Eduarda**: e o que você faria?
+
+**Lorena**: ia te beijar, muito
+
+**Eduarda**: e depois?
+
+**Lorena**: eu beijaria seu pescoço, bem embaixo da sua orelha
+
+**Lorena**: você estaria usando um vestido mais curto, e enquanto minha boca estivesse no seu pescoço, eu apertaria sua cintura
+
+**Eduarda**: continua, por favor
+
+**Lorena**: eu nunca fiz isso antes
+
+Lorena não queria que a virgindade fosse tratada como uma espécie de impedimento, como se aquilo a tornasse menos capaz de desejar ou de participar daquela intimidade. Tinha curiosidade, vontade e algumas fantasias que jamais confessaria em voz alta, mas também não sabia muito bem o que fazer com a própria inexperiência.
+
+**Eduarda**: eu não me importo
+
+*Perfeito*.
+
+**Lorena**: queria suas mãos em mim, explorando meu corpo sem nenhum impedimento
+
+**Lorena**: eu estaria sentada no seu colo, provavelmente não iria aguentar de tesão e rebolaria em cima de você
+
+**Eduarda**: e depois?
+
+Lorena sabia exatamente o que estava fazendo. Estava escolhendo aquelas palavras de propósito, calculando o efeito de cada uma e provocando Eduarda como queria.
+
+**Lorena**: o resto vai ter que descobrir pessoalmente
+
+**Lorena**: bateu um soninho, sabe? acho que vou dormir
+
+**Lorena**: boa noite, duda
+
+**Lorena**: sonha comigo ;)
+
+Lorena enviou a última mensagem e permaneceu olhando para a tela por alguns segundos, esperando que os três pontinhos de "Digitando..." aparecessem. Não apareceram de imediato, mas ela não precisava de uma resposta para saber que tinha conseguido o que queria.
+
+Soltou uma risadinha pelo nariz, satisfeita, e bloqueou o celular antes que a curiosidade a fizesse voltar atrás. Colocou o aparelho sobre a bancada do banheiro, ao lado da nécessaire aberta e de alguns produtos de higiene espalhados, e se olhou no espelho. Ainda estava com as bochechas ligeiramente coradas. Passou a língua pelos lábios, tentando conter outro sorriso, e balançou a cabeça para si mesma. Era ridículo o efeito que aquela mulher conseguia provocar nela. Mais ridículo ainda era perceber que, naquela noite, tinha gostado de descobrir que também podia provocar alguma coisa em Eduarda.
+
+Apoiou as mãos na pia e inclinou um pouco o corpo para a frente, observando o próprio reflexo. O cabelo estava um pouco bagunçado, com alguns fios grudados na testa por causa do calor do banheiro. Havia uma marca discreta do travesseiro em uma das bochechas, e os olhos denunciavam o cansaço que ela vinha ignorando havia algum tempo. Abriu a torneira, molhou as mãos e passou um pouco de água pelo rosto, tomando cuidado para não encharcar a blusa. Depois pegou a toalha de rosto pendurada ao lado do espelho e secou a pele com pequenas pressões, sem esfregar. Escovou os dentes, enxaguou a boca e guardou a escova no copinho, fechando a torneira com o cotovelo porque ainda segurava a toalha.
+
+Antes de sair, apagou a luz principal e conferiu se tinha deixado tudo em ordem. Recolheu a embalagem de um creme que havia caído perto do cesto, fechou a nécessaire e ajeitou os produtos na bancada. O banheiro ficou mergulhado na iluminação fraca que vinha do corredor quando abriu a porta.
+
+Lorena caminhou pelo corredor descalça, sentindo o piso frio sob os pés. Ao chegar à porta, encontrou Maggye deitada de lado, coberta até a cintura, ainda dormindo. O cabelo estava espalhado pelo travesseiro e uma das mãos descansava sobre a barriga, enquanto a outra estava "jogada" em seu rosto.
+
+Ela deixou o celular sobre a cômoda, conferiu que a tela continuava apagada e o colocou para carregar, virado para baixo. Não queria correr o risco de bisbilhotar a resposta de Eduarda. Pelo menos era isso que dizia a si mesma. Puxou o cabelo para trás com os dedos, prendendo-o de qualquer jeito antes de se aproximar da cama. Lorena apagou a luz do quarto, deixando apenas o brilho da televisão iluminar parcialmente o ambiente, e se acomodou ao lado dela. Primeiro deitou de costas, ajeitando o travesseiro sob a cabeça; depois virou de lado, puxando o cobertor até os ombros.
+
+Fechou os olhos, ainda com a lembrança da conversa ocupando espaço na cabeça. Imaginou Eduarda lendo aquelas últimas mensagens, talvez com o celular na mão e uma expressão indignada, talvez sorrindo sozinha ou preparando uma resposta que Lorena só teria a oportunidade de ler pela manhã. A possibilidade a divertia particularmente.
+
+Era uma pequena vitória, talvez infantil, mas Lorena estava satisfeita com ela.
+
+Com um último sorriso escondido contra o travesseiro e o calor de Maggye ao seu lado, Lorena finalmente deixou o sono vencê-la, ainda satisfeita com a pequena provocação que havia deixado nas mãos de Eduarda.
+`
   }
 ];
